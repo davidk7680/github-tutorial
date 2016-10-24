@@ -26,7 +26,7 @@ Your code is being held only on your personal computer or wherever you are codin
 ## Workflow & Commands  
 There are many commands coders use when working on their project/repository.  
 Such exapmles consist of:  
-`git status` is when you ask the computer what is going on with your code. Is the last command I used working correcctly, or what is the problem with my code currently?  
-`git add` is when you add a file(s) to the "stage". you can use `git add <file name>` which adds a single file that you changed or `git  add .` which adds all files that you changed.  
-`git commit` is where to save everything on the stage as is. You can add a message with the saving of all the work by using -m like `git commit -m "your message"`.  
-`git push` is when you push your local repo to your remote repo.  
+* `git status` is when you ask the computer what is going on with your code. Is the last command I used working correcctly, or what is the problem with my code currently?  
+* `git add` is when you add a file(s) to the "stage". you can use `git add <file name>` which adds a single file that you changed or `git  add .` which adds all files that you changed.  
+* `git commit` is where to save everything on the stage as is. You can add a message with the saving of all the work by using -m like `git commit -m "your message"`.  
+* `git push` is when you push your local repo to your remote repo.
