@@ -14,7 +14,7 @@ Your code is being held only on your personal computer or wherever you are codin
 
 ---
 ## Initial Setup
-
+To making a git hub account you have to go to github.com, go to the green button on the top right to sign up. You will have to make a username and password and put in a email address for secruity reasons. After you finish signing up on github, go to your email to verif that your account has been made.
 
 
 ---
