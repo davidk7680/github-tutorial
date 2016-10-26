@@ -1,168 +1,104 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>GitHub Tutorial by bmuellerhstat</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>GitHub Tutorial by davidk7680</title>
   </head>
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name">GitHub Tutorial</h1>
-      <h2 class="project-tagline">It&#39;s just the beGITning</h2>
-      <a href="https://github.com/bmuellerhstat/github-tutorial" class="btn">View on GitHub</a>
-      <a href="https://github.com/bmuellerhstat/github-tutorial/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/bmuellerhstat/github-tutorial/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <div id="container">
+      <div class="inner">
 
-    <section class="main-content">
-      <h1>
-<a id="github-tutorial-project" class="anchor" href="#github-tutorial-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial Project</h1>
+        <header>
+          <h1>GitHub Tutorial</h1>
+          <h2>Time to git learn .</h2>
+        </header>
 
-<h2>
-<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Overview</em>
-</h2>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/davidk7680/github-tutorial/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/davidk7680/github-tutorial/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/davidk7680/github-tutorial" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
 
-<ul>
-<li>Using markdown syntax, display all of your knowledge about <strong>Git</strong> and <strong>Github</strong> in a single README file.<br>
-</li>
-</ul>
+        <hr>
 
-<h2>
-<a id="directions" class="anchor" href="#directions" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Directions</em>
-</h2>
+        <section id="main_content">
+          <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
 
-<ol>
-<li>Fork and clone this repository.</li>
-<li>Notice there are two files:<br>
-a. <code>README.md</code> is where you will find a template to use as a starting point for your tutorial.  This is where you'll do your work.<br>
-b. <code>directions.md</code> is where you will find these directions.</li>
-<li>As you edit, make a commit every once in a while.  Don't forget to push!<br>
-</li>
-<li>When you are finished, submit your remote repository URL (see class website).<br>
-</li>
-</ol>
-
-<h2>
-<a id="topics" class="anchor" href="#topics" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Topics</em>
-</h2>
-
-<ul>
-<li>git vs github overview
-
-<ul>
-<li>explain what each is, and the difference between the two</li>
-<li>[10%]</li>
-</ul>
-</li>
-<li>one-time setup
-
-<ul>
-<li>github account, SSH key, <code>git config</code> (user.name &amp; user.email)</li>
-<li>[15%]</li>
-</ul>
-</li>
-<li>repo setup
-
-<ul>
-<li>
-<code>init</code>, your first <code>add</code> &amp; <code>commit</code>, new repo on github, remote</li>
-<li>[20%]</li>
-</ul>
-</li>
-<li>ongoing workflow &amp; commands
-
-<ul>
-<li>status, add, commit, push</li>
-<li>[40%]</li>
-</ul>
-</li>
-</ul>
-
-<p><em>NOTE: for each command, you should explain:</em></p>
-
-<ul>
-<li>what each command does (explain the concept)</li>
-<li>how to actually use it (correct syntax)</li>
-</ul>
-
-<h2>
-<a id="other-requirements" class="anchor" href="#other-requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Other Requirements</em>
-</h2>
-
-<ul>
-<li>use MD syntax <em>(headings, bold, italics, etc)</em>
-
-<ul>
-<li>[5%]</li>
-</ul>
-</li>
-<li>use list(s) <em>(ordered and/or unordered)</em>
-
-<ul>
-<li>[5%]</li>
-</ul>
-</li>
-<li>use code snippets <em>(single and/or multi-line)</em>
-
-<ul>
-<li>[5%]</li>
-</ul>
-</li>
-</ul>
-
-<h3>
-<a id="extra-credit" class="anchor" href="#extra-credit" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Extra Credit</em>
-</h3>
-
-<ul>
-<li>error handling
-
-<ul>
-<li>what to do if you did <code>init</code> in the wrong directory<br>
-</li>
-<li>how to completely remove a repository (local &amp; remote)<br>
-</li>
-<li>[10%]<br>
-</li>
-</ul>
-</li>
-<li>collaboration<br>
-
-<ul>
-<li>fork &amp; <code>clone</code>, pull requests and <code>pull</code><br>
-</li>
-<li>[10%]<br>
-</li>
-</ul>
-</li>
-</ul>
+<p><em>by David Kim</em></p>
 
 <hr>
 
-<h3>
-<a id="a-note-about-plagiarism" class="anchor" href="#a-note-about-plagiarism" aria-hidden="true"><span class="octicon octicon-link"></span></a>A note about plagiarism</h3>
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
 
-<p>You should be typing <em>every single word</em>.  It is ok to refer to your notes, the slides, the internet, and even your classmates for help.  However, <strong>intellectual property is to be regarded highly in this class</strong>.  You should be explaining everything in your own words.  If you are copying/pasting, you are not learning.</p>
+<p><strong>Git</strong> is the <em>local</em> part of your code.
+Your code is being held only on your personal computer or wherever you are coding.<br>
+<strong>Git Does Not Require Github</strong>  </p>
 
-<h3>
-<a id="final-thoughts" class="anchor" href="#final-thoughts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Final thoughts</h3>
+<p><strong>Github</strong> is the "cloud" or the <em>remote</em> version of where your code is being held. In the "cloud" you are able to share your code with other people and you can push and pull other code freely.<br>
+<strong>Github Requires Git</strong></p>
 
-<p>The best way to learn something is through repeated practice.<br>
-Feel free to <strong>practice</strong> all of these concepts on your own to understand them better.<br>
-Don't forget to use <a href="http://www.google.com">Google</a> if you get stuck!</p>
+<hr>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/bmuellerhstat/github-tutorial">GitHub Tutorial</a> is maintained by <a href="https://github.com/bmuellerhstat">bmuellerhstat</a>.</span>
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+<p>To making a git hub account you have to go to github.com, go to the green button on the top right to sign up. You will have to make a username and password and put in a email address for secruity reasons. After you finish signing up on github, go to your email to verif that your account has been made.</p>
 
-    </section>
+<hr>
 
-  
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>There are multiple steps needed to be taken to create a repo. 
+1. Create a local repo on your computer
+2. Initialize git 
+3. Create a file
+4. Make changes to the file
+5. Add the file that you changed
+6. Commit the change
+7. Push the change</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>There are many commands coders use when working on their project/repository.<br>
+Such exapmles consist of:  </p>
+
+<ul>
+<li>
+<code>git status</code> is when you ask the computer what is going on with your code. Is the last command I used working correcctly, or what is the problem with my code currently?<br>
+</li>
+<li>
+<code>git add</code> is when you add a file(s) to the "stage". you can use <code>git add &lt;file name&gt;</code> which adds a single file that you changed or <code>git  add .</code> which adds all files that you changed.<br>
+</li>
+<li>
+<code>git commit</code> is where to save everything on the stage as is. You can add a message with the saving of all the work by using -m like <code>git commit -m "your message"</code>.<br>
+</li>
+<li>
+<code>git push</code> is when you push your local repo to your remote repo.</li>
+</ul>
+        </section>
+
+        <footer>
+          GitHub Tutorial is maintained by <a href="https://github.com/davidk7680">davidk7680</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
   </body>
 </html>
