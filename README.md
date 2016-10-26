@@ -19,7 +19,14 @@ To making a git hub account you have to go to github.com, go to the green button
 
 ---
 ## Repository Setup
-
+There are multiple steps needed to be taken to create a repo. 
+1. Create a local repo on your computer
+2. Initialize git 
+3. Create a file
+4. Make changes to the file
+5. Add the file that you changed
+6. Commit the change
+7. Push the change
 
 
 ---
